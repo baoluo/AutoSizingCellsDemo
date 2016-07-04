@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DC4606AFE32BBDA95CC4B0C /* Pods_POCAutoSizingCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215924005D5696876B6596E3 /* Pods_POCAutoSizingCells.framework */; };
 		5D85D5EC1D26AD6D00C8FEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D85D5EB1D26AD6D00C8FEBE /* AppDelegate.swift */; };
-		5D85D5EE1D26AD6D00C8FEBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D85D5ED1D26AD6D00C8FEBE /* ViewController.swift */; };
+		5D85D5EE1D26AD6D00C8FEBE /* AutoSizingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D85D5ED1D26AD6D00C8FEBE /* AutoSizingTableViewController.swift */; };
 		5D85D5F11D26AD6D00C8FEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D85D5EF1D26AD6D00C8FEBE /* Main.storyboard */; };
 		5D85D5F31D26AD6D00C8FEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85D5F21D26AD6D00C8FEBE /* Assets.xcassets */; };
 		5D85D5F61D26AD6D00C8FEBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D85D5F41D26AD6D00C8FEBE /* LaunchScreen.storyboard */; };
+		5D85D5FF1D26ADAA00C8FEBE /* AutoSizingTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D85D5FD1D26ADAA00C8FEBE /* AutoSizingTextTableViewCell.swift */; };
+		5D85D6051D26B08F00C8FEBE /* AutoSizingImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D85D6041D26B08F00C8FEBE /* AutoSizingImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215924005D5696876B6596E3 /* Pods_POCAutoSizingCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCAutoSizingCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355CE8CC144A554D9FA478D7 /* Pods-POCAutoSizingCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCAutoSizingCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-POCAutoSizingCells/Pods-POCAutoSizingCells.release.xcconfig"; sourceTree = "<group>"; };
 		5D85D5E81D26AD6D00C8FEBE /* POCAutoSizingCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCAutoSizingCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D85D5EB1D26AD6D00C8FEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D85D5ED1D26AD6D00C8FEBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D85D5ED1D26AD6D00C8FEBE /* AutoSizingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingTableViewController.swift; sourceTree = "<group>"; };
 		5D85D5F01D26AD6D00C8FEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D85D5F21D26AD6D00C8FEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D85D5F51D26AD6D00C8FEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D85D5F71D26AD6D00C8FEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D85D5FD1D26ADAA00C8FEBE /* AutoSizingTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizingTextTableViewCell.swift; sourceTree = "<group>"; };
+		5D85D6041D26B08F00C8FEBE /* AutoSizingImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSizingImageTableViewCell.swift; sourceTree = "<group>"; };
+		845D9EAF985DE792AE57C0C5 /* Pods-POCAutoSizingCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCAutoSizingCells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POCAutoSizingCells/Pods-POCAutoSizingCells.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC4606AFE32BBDA95CC4B0C /* Pods_POCAutoSizingCells.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4880AEA0E3FA52A52EA9D636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				215924005D5696876B6596E3 /* Pods_POCAutoSizingCells.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51261A1B005BE12B5325575F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				845D9EAF985DE792AE57C0C5 /* Pods-POCAutoSizingCells.debug.xcconfig */,
+				355CE8CC144A554D9FA478D7 /* Pods-POCAutoSizingCells.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D85D5DF1D26AD6D00C8FEBE = {
 			isa = PBXGroup;
 			children = (
 				5D85D5EA1D26AD6D00C8FEBE /* POCAutoSizingCells */,
 				5D85D5E91D26AD6D00C8FEBE /* Products */,
+				51261A1B005BE12B5325575F /* Pods */,
+				4880AEA0E3FA52A52EA9D636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,40 @@
 		5D85D5EA1D26AD6D00C8FEBE /* POCAutoSizingCells */ = {
 			isa = PBXGroup;
 			children = (
-				5D85D5EB1D26AD6D00C8FEBE /* AppDelegate.swift */,
-				5D85D5ED1D26AD6D00C8FEBE /* ViewController.swift */,
-				5D85D5EF1D26AD6D00C8FEBE /* Main.storyboard */,
+				5D85D6011D26AE3900C8FEBE /* ViewControllers */,
+				5D85D6021D26AE4500C8FEBE /* TableViewCells */,
 				5D85D5F21D26AD6D00C8FEBE /* Assets.xcassets */,
+				5D85D5EB1D26AD6D00C8FEBE /* AppDelegate.swift */,
+				5D85D6031D26AE5200C8FEBE /* Ressources */,
+			);
+			path = POCAutoSizingCells;
+			sourceTree = "<group>";
+		};
+		5D85D6011D26AE3900C8FEBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D85D5ED1D26AD6D00C8FEBE /* AutoSizingTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D85D6021D26AE4500C8FEBE /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5D85D5FD1D26ADAA00C8FEBE /* AutoSizingTextTableViewCell.swift */,
+				5D85D6041D26B08F00C8FEBE /* AutoSizingImageTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		5D85D6031D26AE5200C8FEBE /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				5D85D5EF1D26AD6D00C8FEBE /* Main.storyboard */,
 				5D85D5F41D26AD6D00C8FEBE /* LaunchScreen.storyboard */,
 				5D85D5F71D26AD6D00C8FEBE /* Info.plist */,
 			);
-			path = POCAutoSizingCells;
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D85D5FA1D26AD6D00C8FEBE /* Build configuration list for PBXNativeTarget "POCAutoSizingCells" */;
 			buildPhases = (
+				800A9E082F4F9E19E123967E /* [CP] Check Pods Manifest.lock */,
 				5D85D5E41D26AD6D00C8FEBE /* Sources */,
 				5D85D5E51D26AD6D00C8FEBE /* Frameworks */,
 				5D85D5E61D26AD6D00C8FEBE /* Resources */,
+				69BC56A74DCD1F3FB9A5C3F7 /* [CP] Embed Pods Frameworks */,
+				25F3067360AC34B2DE2C22D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +187,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25F3067360AC34B2DE2C22D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POCAutoSizingCells/Pods-POCAutoSizingCells-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69BC56A74DCD1F3FB9A5C3F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POCAutoSizingCells/Pods-POCAutoSizingCells-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800A9E082F4F9E19E123967E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D85D5E41D26AD6D00C8FEBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D85D5EE1D26AD6D00C8FEBE /* ViewController.swift in Sources */,
+				5D85D6051D26B08F00C8FEBE /* AutoSizingImageTableViewCell.swift in Sources */,
+				5D85D5EE1D26AD6D00C8FEBE /* AutoSizingTableViewController.swift in Sources */,
+				5D85D5FF1D26ADAA00C8FEBE /* AutoSizingTextTableViewCell.swift in Sources */,
 				5D85D5EC1D26AD6D00C8FEBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +356,7 @@
 		};
 		5D85D5FB1D26AD6D00C8FEBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845D9EAF985DE792AE57C0C5 /* Pods-POCAutoSizingCells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POCAutoSizingCells/Info.plist;
@@ -260,6 +368,7 @@
 		};
 		5D85D5FC1D26AD6D00C8FEBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355CE8CC144A554D9FA478D7 /* Pods-POCAutoSizingCells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POCAutoSizingCells/Info.plist;
@@ -288,6 +397,7 @@
 				5D85D5FC1D26AD6D00C8FEBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
