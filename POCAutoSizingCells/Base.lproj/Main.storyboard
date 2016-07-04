@@ -86,9 +86,9 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="fHw-Mp-2wm" firstAttribute="top" secondItem="kGE-gO-5ry" secondAttribute="top" id="CRe-N0-VWR"/>
-                                        <constraint firstAttribute="trailing" secondItem="fHw-Mp-2wm" secondAttribute="trailing" id="sqf-np-2rh"/>
+                                        <constraint firstAttribute="trailing" secondItem="fHw-Mp-2wm" secondAttribute="trailing" priority="999" id="sqf-np-2rh"/>
                                         <constraint firstAttribute="bottom" secondItem="fHw-Mp-2wm" secondAttribute="bottom" id="svk-lH-eFw"/>
-                                        <constraint firstItem="fHw-Mp-2wm" firstAttribute="leading" secondItem="kGE-gO-5ry" secondAttribute="leading" id="utm-Kk-3Lr"/>
+                                        <constraint firstItem="fHw-Mp-2wm" firstAttribute="leading" secondItem="kGE-gO-5ry" secondAttribute="leading" priority="999" id="utm-Kk-3Lr"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
